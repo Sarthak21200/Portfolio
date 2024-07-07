@@ -4,13 +4,17 @@ import ButtonR from "./ButtonR"
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+import leetcode from "../../public/leetcode.png";
+import codeforces from "../../public/codeforces.png";
+import linkedin from "../../public/linkedin.png";
+import insta from "../../public/insta.png";
 
 function Home() {
   return (
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
+        className="max-w-screen-2xl container mx-auto px-4 py-10 md:px-20"
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1 py-3">
@@ -38,22 +42,22 @@ function Home() {
                 <ul className="flex space-x-5">
                   <li>
                     <a href="https://www.instagram.com/sarthaksharma._.212/" target="_blank">
-                      <FaSquareInstagram className="text-2xl cursor-pointer" />
+                      <img src={insta} className="w-6 h-6 text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
                     <a href="https://www.linkedin.com/in/sarthaksharma212/" target="_blank">
-                      <FaLinkedin className="text-2xl cursor-pointer" />
+                      <img src={linkedin} className="w-6 h-6 text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
                     <a href="https://leetcode.com/u/Sarthak__212/" target="_blank">
-                    <img src="../../public/leetcode-svgrepo-com.svg" className="w-6 h-6 text-2xl cursor-pointer" />
+                    <img src={leetcode} className="w-6 h-6 text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
                     <a href="https://codeforces.com/profile/sarthak3764" target="_blank">
-                      <img src="../../public/codeforces-svgrepo-com.svg" className="w-6 h-6 text-2xl cursor-pointer" />
+                      <img src={codeforces} className="w-6 h-6 text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>

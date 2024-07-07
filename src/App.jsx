@@ -2,26 +2,28 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import PortFolio from "./components/PortFolio";
-import Experiance from "./components/Experiance";
+import Portfolio from "./components/PortFolio";
+import Experience from "./components/Experiance";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import AnimatedBackground from "./components/AnimatedBackground"; // Adjust path as needed
 import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <>
-      <div>
+    <div className="relative">
+      <AnimatedBackground className="absolute inset-0 z-0" />
+      <div className="relative z-10">
         <Navbar />
         <Home />
         <About />
-        <PortFolio/>
-        <Experiance />
+        <Portfolio />
+        <Experience />
         <Contact />
         <Footer />
+        <Toaster />
       </div>
-      <Toaster />
-    </>
+    </div>
   );
 }
 

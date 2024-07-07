@@ -9,15 +9,15 @@ function PortFolio() {
       id: 1,
       logo: meraGhar,
       name: "HouseBano.com",
-      desc:" ",
-      live:"https://mera-garh.vercel.app/",
-      git:" "
+      desc:"Next JS Frontend Website styled with Tailwind. Provides Server-Side Rendering (SSR) and Static Site Generation (SSG) and Dynamic Routing and File-Based Routing",
+      live:"https://house-banao-six.vercel.app/",
+      git:"https://github.com/Sarthak21200/HouseBano"
     },
     {
       id: 2,
       logo: urMoney,
       name: "My Money App",
-      desc:" ",
+      desc:"Leveraged NextJS framework, incorporating NextAuth for secure user authentication. Optimized database interactions with PostgreSQL Configured PostgreSQL database and integrated it with the backend using Prisma ORM for seamless and efficient data management",
       live:" ",
       git:" "
     },
@@ -25,9 +25,9 @@ function PortFolio() {
       id: 3,
       logo: portf,
       name: "Portfolio Website",
-      desc:" ",
-      live:" ",
-      git:" "
+      desc:"A React based Portfolio Website styled with Tailwind to Showcase all the skills , Projects and achievement.This Portfolio website is the live example of this project",
+      live:"https://portfolio-sand-psi-85.vercel.app/",
+      git:"https://github.com/Sarthak21200/Portfolio"
     },
   ];
   return (
