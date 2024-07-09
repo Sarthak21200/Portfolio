@@ -11,7 +11,9 @@ function PortFolio() {
       name: "HouseBano.com",
       desc:"Next JS Frontend Website styled with Tailwind. Provides Server-Side Rendering (SSR) and Static Site Generation (SSG) and Dynamic Routing and File-Based Routing",
       live:"https://house-banao-six.vercel.app/",
-      git:"https://github.com/Sarthak21200/HouseBano"
+      git:"https://github.com/Sarthak21200/HouseBano",
+      color1:"yellow",
+      color2:"orange"
     },
     {
       id: 2,
@@ -19,7 +21,10 @@ function PortFolio() {
       name: "My Money App",
       desc:"Leveraged NextJS framework, incorporating NextAuth for secure user authentication. Optimized database interactions with PostgreSQL Configured PostgreSQL database and integrated it with the backend using Prisma ORM for seamless and efficient data management",
       live:" ",
-      git:" "
+      git:" ",
+      color1:"green",
+      color2:"gray"
+
     },
     {
       id: 3,
@@ -27,7 +32,9 @@ function PortFolio() {
       name: "Portfolio Website",
       desc:"A React based Portfolio Website styled with Tailwind to Showcase all the skills , Projects and achievement.This Portfolio website is the live example of this project",
       live:"https://portfolio-sand-psi-85.vercel.app/",
-      git:"https://github.com/Sarthak21200/Portfolio"
+      git:"https://github.com/Sarthak21200/Portfolio",
+      color1:"pink",
+      color2:"blue"
     },
   ];
   return (
@@ -38,9 +45,9 @@ function PortFolio() {
       <h1 className="text-3xl font-bold underline mb-5">Projects</h1>
       <span className="font-semibold">Featured</span>
         <div className="flex flex-wrap justify-around items-center">
-          <ProjectCard key={cardItem[0].id} image={cardItem[0].logo} text1={cardItem[0].name} text2={cardItem[0].desc} text3={cardItem[0].live} text4={cardItem[0].git}></ProjectCard>
-          <ProjectCard key={cardItem[1].id} image={cardItem[1].logo} text1={cardItem[1].name} text2={cardItem[1].desc} text3={cardItem[1].live} text4={cardItem[1].git}></ProjectCard>
-          <ProjectCard key={cardItem[2].id} image={cardItem[2].logo} text1={cardItem[2].name} text2={cardItem[2].desc} text3={cardItem[2].live} text4={cardItem[2].git}></ProjectCard>
+          <ProjectCard key={cardItem[0].id} image={cardItem[0].logo} text1={cardItem[0].name} text2={cardItem[0].desc} text3={cardItem[0].live} text4={cardItem[0].git} text5={cardItem[0].color1} text6={cardItem[0].color2}></ProjectCard>
+          <ProjectCard key={cardItem[1].id} image={cardItem[1].logo} text1={cardItem[1].name} text2={cardItem[1].desc} text3={cardItem[1].live} text4={cardItem[1].git} text5={cardItem[1].color1} text6={cardItem[1].color2}></ProjectCard>
+          <ProjectCard key={cardItem[2].id} image={cardItem[2].logo} text1={cardItem[2].name} text2={cardItem[2].desc} text3={cardItem[2].live} text4={cardItem[2].git} text5={cardItem[2].color1} text6={cardItem[2].color2}></ProjectCard>
           </div>
         </span>
     </div>
