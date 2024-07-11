@@ -12,7 +12,7 @@ const ButtonComponent = () => {
   return (
     <button
       onClick={handleButtonClick}
-      className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+      className="bg-slate-700 text-amber-500 font-bold py-2 px-4 rounded hover:bg-amber-900 hover:scale-105 "
     >
       Resume
     </button>

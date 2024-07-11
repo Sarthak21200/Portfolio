@@ -13,7 +13,7 @@ const Card = ({ image, text1, text2, text3, text4,text5,text6 }) => {
 
   return (
     <div
-      className="relative w-64 h-80 m-10 bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 bg-gradient-to-b from-blue-400 to-green-200"
+      className="relative w-64 h-80 m-10 rounded-3xl shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 bg-slate-800 hover:shadow-current hover:shadow-xl"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -28,16 +28,16 @@ const Card = ({ image, text1, text2, text3, text4,text5,text6 }) => {
 
       {/* Card content when hovered */}
       {hovered && (
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-opacity-75 backdrop-filter backdrop-blur-lg transition-opacity duration-300 ease-in-out bg-green-300">
-          <p className="text-base text-slate-950">{text2}</p>
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-opacity-75 backdrop-filter backdrop-blur-lg transition-opacity duration-300 ease-in-out bg-slate-800">
+          <p className="text-base text-amber-400">{text2}</p>
           <div className="mt-4">
             <a href={text3} target="_blank" >
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2 transition-all duration-300 ease-in-out">
+            <button className="bg-slate-950 hover:bg-amber-900 text-amber-500 font-bold py-2 px-4 rounded mr-2 transition-all duration-300 ease-in-out">
               Live
             </button>
             </a>
             <a href={text4} target="_blank" >
-            <button onClick={text4} className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition-all duration-300 ease-in-out">
+            <button onClick={text4} className="bg-slate-950 hover:bg-amber-900 text-amber-500 font-bold py-2 px-4 rounded transition-all duration-300 ease-in-out">
               GitHub Link
             </button>
             </a>

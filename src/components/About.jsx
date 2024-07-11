@@ -10,9 +10,9 @@ function About() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
     >
       <div>
-        <h1 className="text-3xl font-bold underline mb-5">Education And Training</h1>
+        <h1 className="text-3xl font-bold underline mb-5 ">Education And Training</h1>
         <br/>
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-red-700 font-semibold text-xl">
           Qualifications
         </h1>
         <span>
@@ -23,7 +23,7 @@ function About() {
           </div>
         </span>
         <br/>
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-red-700 font-semibold text-xl">
           Professional Experience
         </h1>
         <span>
@@ -41,7 +41,7 @@ function About() {
         </div>
         </span>
         <br></br>
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-red-700 font-semibold text-xl">
           Skills & Expertise
         </h1>
         <div>
@@ -59,7 +59,7 @@ function About() {
           </div>
         </div>
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-red-700 font-semibold text-xl">
           Achievements & Awards
         </h1>
         <span>
