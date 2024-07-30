@@ -105,7 +105,7 @@ function Experiance() {
     >
       <img src={logo} className="w-[100px] md:w-[150px] rounded-full" alt={name} />
       <div className="mt-2 text-center">
-        <div>{name}</div>
+        <div className="text-gold">{name}</div>
       </div>
     </div>
   ))}

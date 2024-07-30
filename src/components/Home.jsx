@@ -1,8 +1,6 @@
 import React from "react";
 import pic from "../../public/orig.jpg";
 import ButtonR from "./ButtonR"
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import leetcode from "../../public/leetcode.png";
 import codeforces from "../../public/codeforces.png";

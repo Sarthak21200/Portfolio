@@ -8,10 +8,10 @@ function PortFolio() {
     {
       id: 1,
       logo: meraGhar,
-      name: "HouseBano.com",
+      name: "My-Home",
       desc:"Next JS Frontend Website styled with Tailwind. Provides Server-Side Rendering (SSR) and Static Site Generation (SSG) and Dynamic Routing and File-Based Routing",
-      live:"https://house-banao-six.vercel.app/",
-      git:"https://github.com/Sarthak21200/HouseBano",
+      live:"https://my-home-seven.vercel.app/",
+      git:"https://github.com/Sarthak21200/MyHome",
       color1:"yellow",
       color2:"orange"
     },
@@ -20,7 +20,7 @@ function PortFolio() {
       logo: urMoney,
       name: "My Money App",
       desc:"Leveraged NextJS framework, incorporating NextAuth for secure user authentication. Optimized database interactions with PostgreSQL Configured PostgreSQL database and integrated it with the backend using Prisma ORM for seamless and efficient data management",
-      live:" ",
+      live:"https://my-money-app.onrender.com/signup",
       git:" ",
       color1:"green",
       color2:"gray"

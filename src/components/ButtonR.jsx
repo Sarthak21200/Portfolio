@@ -5,14 +5,12 @@ const ButtonComponent = () => {
   const handleButtonClick = () => {
     // Open the resume in a new tab
     window.open('https://drive.google.com/file/d/1kcjbWU6lvkeRzw_tg1o8dxl1TpzOqPT4/view?usp=sharing', '_blank');
-    // If the resume is hosted online, use the URL directly, e.g.:
-    // window.open('https://yourwebsite.com/resume.pdf', '_blank');
   };
 
   return (
     <button
       onClick={handleButtonClick}
-      className="bg-slate-700 text-amber-500 font-bold py-2 px-4 rounded hover:bg-amber-900 hover:scale-105 "
+      className="bg-gold text-black font-bold py-2 px-4 rounded hover:bg-red-700 hover:scale-105 "
     >
       Resume
     </button>
