@@ -43,7 +43,7 @@ function PortFolio() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10">
       <span>
       <h1 className="text-3xl font-bold underline mb-5">Projects</h1>
-      <span className="font-semibold">Featured</span>
+      <span className="font-semibold text-red-700">Featured</span>
         <div className="flex flex-wrap justify-around items-center">
           <ProjectCard key={cardItem[0].id} image={cardItem[0].logo} text1={cardItem[0].name} text2={cardItem[0].desc} text3={cardItem[0].live} text4={cardItem[0].git} text5={cardItem[0].color1} text6={cardItem[0].color2}></ProjectCard>
           <ProjectCard key={cardItem[1].id} image={cardItem[1].logo} text1={cardItem[1].name} text2={cardItem[1].desc} text3={cardItem[1].live} text4={cardItem[1].git} text5={cardItem[1].color1} text6={cardItem[1].color2}></ProjectCard>

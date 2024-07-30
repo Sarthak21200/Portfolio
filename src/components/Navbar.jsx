@@ -42,7 +42,7 @@ function Navbar() {
           <div>
             <ul className="hidden md:flex space-x-8 text-black">
               {navItems.map(({ id, text }) => (
-                <li className="hover:scale-110 duration-200 cursor-pointer" key={id}>
+                <li className="hover:scale-110 hover:shadow-red-700 hover:shadow-md  duration-200 cursor-pointer" key={id}>
                   <Link
                     to={text}
                     smooth={true}

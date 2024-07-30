@@ -13,7 +13,7 @@ const Card = ({ image, text1, text2, text3, text4,text5,text6 }) => {
 
   return (
     <div
-      className="relative w-64 h-80 m-10 rounded-3xl shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 bg-gold hover:shadow-current hover:shadow-xl"
+      className="relative w-64 h-80 m-10 rounded-3xl shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 bg-gold hover:shadow-red-700 hover:shadow-xl"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
